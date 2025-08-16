@@ -1,4 +1,4 @@
-import { GameMap, Tile, TileType } from '../types/game';
+import type { GameMap, Tile, TileType } from '../types/game';
 
 const ROOM_ITEMS: TileType[] = ['toy', 'bed', 'food', 'butterfly', 'box', 'sunspot'];
 

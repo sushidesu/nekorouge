@@ -1,5 +1,5 @@
 import React from 'react';
-import { GameState } from '../types/dreamGame';
+import type { GameState } from '../types/dreamGame';
 
 interface GameOverScreenProps {
   gameState: GameState;

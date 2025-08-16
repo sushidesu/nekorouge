@@ -1,5 +1,6 @@
 import React from 'react';
-import { GameState, DEPTH_NAMES } from '../types/dreamGame';
+import type { GameState } from '../types/dreamGame';
+import { DEPTH_NAMES } from '../types/dreamGame';
 
 interface GameStatusProps {
   gameState: GameState;

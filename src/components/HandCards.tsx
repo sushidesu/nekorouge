@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from '../types/dreamGame';
+import type { Card } from '../types/dreamGame';
 import { DreamCard } from './DreamCard';
 
 interface HandCardsProps {

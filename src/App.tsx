@@ -1,4 +1,3 @@
-import React from 'react';
 import { useDreamGame } from './hooks/useDreamGame';
 import { GameStatus } from './components/GameStatus';
 import { HandCards } from './components/HandCards';

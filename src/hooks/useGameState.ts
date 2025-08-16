@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import { GameState, Position } from '../types/game';
+import type { GameState, Position } from '../types/game';
 import { generateMap, revealArea } from '../utils/mapGenerator';
 import { getRandomEvent } from '../utils/randomEvents';
 

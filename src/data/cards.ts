@@ -1,4 +1,4 @@
-import { Card } from '../types/dreamGame';
+import type { Card } from '../types/dreamGame';
 
 export const INITIAL_CARDS: Card[] = [
   // 表層カード

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cat } from '../types/game';
+import type { Cat } from '../types/game';
 
 interface StatusBarProps {
   cat: Cat;

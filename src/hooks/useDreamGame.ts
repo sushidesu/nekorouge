@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { GameState, Card, DreamDepth, DEPTH_LEVELS } from '../types/dreamGame';
+import type { GameState, Card, DreamDepth } from '../types/dreamGame';
 import { INITIAL_CARDS, EVOLVED_CARDS, RANDOM_CARDS } from '../data/cards';
 
 const INITIAL_STATE: GameState = {
